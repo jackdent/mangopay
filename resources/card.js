@@ -12,7 +12,7 @@ module.exports = httpClient.extend({
   
   path: 'cardregistrations',
   
-  includeBasic: [ ],
+  includeBasic: [ 'fetch' ],
 
   methods: {
 
