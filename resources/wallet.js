@@ -46,6 +46,15 @@ module.exports = httpClient.extend({
         , 'SecureMode': { default: 'DEFAULT' }
       }
     }),
+
+    refundPayin: httpMethod({
+      method: 'POST',
+      path: '../payins/{PayinId}/refunds',
+      params: {
+          'AuthorId': { required: true }
+        , 'PayinId': { required: true }
+      }
+    }),
     
     transactions: httpMethod({
       method: 'GET',
