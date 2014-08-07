@@ -18,8 +18,8 @@ module.exports = httpClient.extend({
         , 'UserId': { required: true }
         , 'Type': { required: true, default: 'IBAN' }
         , 'OwnerAddress': { required: true }
-        , 'IBAN': { required: true }
-        , 'BIC': { required: true }
+        // , 'IBAN': { required: true }
+        // , 'BIC': { required: true }
       }
     }),
 
